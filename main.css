@@ -1,0 +1,55 @@
+/* При ширине экрана в 1160px и менее - будет выполнен медиа запрос */
+  @media (max-width: 1160px) {
+
+   .container  {
+         width: 100%;
+   }
+
+   .col-4{
+          width: 100%;   
+          /* реальная ширина = width:  100%; + border = 0 + padding = 15 + 15=   */
+
+          box-sizing: border-box;
+
+          margin: 0;
+          margin-bottom: 30px;
+          padding-left: 15px;
+          padding-right: 15px;
+          text-align: center;
+
+   }
+
+   .header {
+      padding-left: 15px:
+      padding-right: 15px;
+
+      height: 100vh;
+      min-height: 400px;
+   }
+
+   .header__title {
+      font-size: 38px;
+      line-height: 48px;
+      margin-bottom: 15px;
+   }
+
+   .header_slogan {
+      font-size: 22px;
+      line-height: 38px;
+   }
+
+.portfolio {
+      padding-top: 40px;
+      padding-bottom: 50px;
+   }
+
+   .title {
+      font-size: 36px;
+   }
+
+   .footer {
+      padding-top: 70px;
+      padding-bottom: 60px;
+   }
+
+}
